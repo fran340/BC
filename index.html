@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegant Salon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">Elegant Salon</h2>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#booking">Book</a></li>
+      </ul>
+      <div class="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Beauty & Care</h1>
+      <p>Experience luxury hair and beauty services</p>
+      <a href="#booking" class="btn">Book Appointment</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services-container">
+      <div class="card">
+        <h3>Hair Styling</h3>
+        <p>Professional cuts and styling.</p>
+      </div>
+      <div class="card">
+        <h3>Makeup</h3>
+        <p>Elegant makeup for all occasions.</p>
+      </div>
+      <div class="card">
+        <h3>Facials</h3>
+        <p>Rejuvenating skin treatments.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section dark">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300" alt="">
+      <img src="https://via.placeholder.com/300" alt="">
+      <img src="https://via.placeholder.com/300" alt="">
+      <img src="https://via.placeholder.com/300" alt="">
+    </div>
+  </section>
+
+  <!-- Booking -->
+  <section id="booking" class="section">
+    <h2>Book Appointment</h2>
+    <form id="bookingForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="date" required>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+    <p id="message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Elegant Salon</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
